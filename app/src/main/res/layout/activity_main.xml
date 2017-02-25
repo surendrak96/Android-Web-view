@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical">
+   <FrameLayout
+       android:id="@+id/frame"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+
+
+
+   <android.support.v7.widget.Toolbar
+       android:titleTextColor="#fff"
+       android:title="ielanat"
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="?attr/colorPrimary"
+
+       >
+     <ImageView
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:background="@mipmap/ic_launcher"
+         android:layout_margin="5dp"
+         />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="ielanat"
+         android:textColor="#fff"
+         android:textSize="23dp"
+         android:textStyle="bold"
+
+         />
+
+
+
+   </android.support.v7.widget.Toolbar>
+</FrameLayout>
+
+
+   <WebView
+       android:id="@+id/webview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
+</LinearLayout>

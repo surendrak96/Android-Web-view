@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03a9f4</color>
+
+    <color name="primary_dark">#0288d1</color>
+    <color name="accent">#607d8b</color>
+    <color name="photo_tint">#7f101010</color>
+    <color name="mobile">#00E099</color>
+
+    <!--- Splash Screen Colours-->
+    <color name="splash_bg">#F8F6EC</color>
+    <color name="orange">#FF9600</color>
+    <color name="aqua">#02D1AC</color>
+    <color name="yellow">#FFD200</color>
+    <color name="blue">#00C6FF</color>
+    <color name="green">#00E099</color>
+    <color name="pink">#FF3892</color>
+    <color name="red">#F44336</color>
+
+    <array name="splash_circle_colors">
+        <item>@color/green</item>
+        <item>@color/pink</item>
+        <item>@color/orange</item>
+        <item>@color/aqua</item>
+        <item>@color/yellow</item>
+        <item>@color/blue</item>
+    </array>
+
+
+
+
+
+</resources>
